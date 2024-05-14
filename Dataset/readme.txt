@@ -16,4 +16,3 @@ This dataset can be utilized for various natural language processing tasks, incl
 Training and evaluating customer support chatbots.
 Multilingual text classification and sentiment analysis.
 Language translation and language understanding tasks.
-Note:
