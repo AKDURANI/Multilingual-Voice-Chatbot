@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ChitChat Buddy</title>
+  <link rel="canonical" href="https://markjivko.com/tutorials/B3wWIsNHPk4/">
+  <meta charset="UTF-8">
+  <meta name="Author" content="Mark Jivko">
+  <meta name="Keywords" content="js,audio recorder">
+  <meta name="Description" content="Recording audio with HTML 5 and JavaScript">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="icon" type="image/ico" href="https://markjivko.com/favicon.ico">
+  
+  <link href='https://fonts.googleapis.com/css?family=Yatra One' rel='stylesheet'>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChitChat Buddy</title>
+  <link rel="stylesheet" href="/staticFiles/bravo.css">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="home-link"><a href="#">Home</a></li>
+        
+        <li><a href="{{url_for('charlie1')}}">Arabic_Buddy</a></li>
+        <li><a href="{{url_for('charlie2')}}">English_Buddy</a></li>
+        <li><a href="{{url_for('charlie3')}}">French_Buddy</a></li>
+        <li><a href="{{url_for('charlie4')}}">German_Buddy</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="home">
+      <h1>Welcome to Our Website</h1>
+      <form class="upload-form" action="/success" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="file">
+        <label for="file">Choose a file to upload</label>
+        <button type="submit">Upload</button>
+      </form>
+    </section>
+    <section class="second-page" id="second-page">
+      <h2>Instructions</h2>
+      <p>Your file must me in a "csv format"</p>
+      <p>In your "csv" file there should be two columns namely "Questions"& "Answers"</p>
+      <!-- Add social media links here -->
+    </section>
+    
+  </main>
+  
+  <div class="page" id="about-page">
+    <h2>About Us</h2>
+    <p>We provide you multilingual voice chat bots</p>
+    <p>With state of the art resopse rate</p>
+    <p>You can also train your own train data sets with the instruction in the Documents uploading section</p>
+    <!-- Add social media links here -->
+  </div>
+
+
+  <footer>
+    <p>&copy; ChitChatBuddy. All rights reserved.</p>
+  </footer>
+</body>
+</html>
